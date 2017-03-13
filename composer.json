@@ -1,0 +1,35 @@
+{
+  "name"        : "blueblazeassociates/blueblaze-disable-login-customizer-dashboard-widgets",
+  "description" : "Blue Blaze Disable Login Customizer Widgets: Disables dashboard widgets from the Login Customizer plugin.",
+  "type"        : "wordpress-plugin",
+  "homepage"    : "https://github.com/blueblazeassociates/blueblaze-disable-login-customizer-dashboard-widgets",
+  "license" : [
+    "GPL-2.0+"
+  ],
+  "authors" : [{
+      "name"     : "Blue Blaze Associates",
+      "homepage" : "http://www.blueblazeassociates.com",
+      "role"     : "Owner",
+      "email"    : "admin@blueblazeassociates.com"
+    }, {
+      "name"     : "Ed Gifford",
+      "homepage" : "http://www.blueblazeassociates.com",
+      "role"     : "Developer",
+      "email"    : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "keywords" : [
+  ],
+  "replace" : {
+  },
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "require-dev" : {
+    "roave/security-advisories"    : "dev-master",
+    "sllh/composer-versions-check" : "^2.0"
+  },
+  "config" : {
+    "php" : "7.0.0"
+  }
+}
