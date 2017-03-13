@@ -32,3 +32,17 @@ function blueblaze__disable_login_customizer_dashboard_widgets() {
   remove_meta_box( 'logincust_subscribe_widget', 'dashboard','side' );
 }
 add_action( 'wp_dashboard_setup', 'blueblaze__disable_login_customizer_dashboard_widgets' );
+
+/*
+ * Override the themeisle_dashboard_widget() function.
+ *
+ * This will prevent login_customizer from loading the RSS feed into the database.
+ */
+if (!function_exists('themeisle_dashboard_widget')) {
+  /**
+   * @return null
+   */
+  function themeisle_dashboard_widget() {
+    return null;
+  }
+}
