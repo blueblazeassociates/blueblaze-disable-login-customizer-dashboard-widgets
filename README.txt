@@ -1,4 +1,4 @@
-=== Blue Blaze Disable WordPress News Widget ===
+=== Blue Blaze Disable Login Customizer Widgets ===
 Contributors: ecgifford
 Tags:
 License: GPL-2.0+
@@ -7,11 +7,11 @@ Stable tag: 1.0.0
 Requires at least: 4.7
 Tested up to: 4.7
 
-Disables the WordPress News dashboard widget.
+Disables dashboard widgets from the Login Customizer plugin.
 
 == Description ==
 
-Disables the WordPress News dashboard widget.
+Disables dashboard widgets from the Login Customizer plugin.
 
 You might ask, "Why?".  These widgets are harmless but do clutter up the database with large
 transients in the options table.  When a database needs to processed by hand, these large db entries
