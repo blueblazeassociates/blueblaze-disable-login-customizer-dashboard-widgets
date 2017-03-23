@@ -11,7 +11,7 @@
  * Plugin Name:       Blue Blaze Disable Login Customizer Widgets
  * Plugin URI:        https://github.com/blueblazeassociates/blueblaze-disable-login-customizer-dashboard-widgets
  * Description:       Disables dashboard widgets from the Login Customizer plugin.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Blue Blaze Associates
  * Author URI:        http://www.blueblazeassociates.com
  * License:           GPL v2 or later
@@ -38,7 +38,7 @@ add_action( 'wp_dashboard_setup', 'blueblaze__disable_login_customizer_dashboard
  *
  * This will prevent login_customizer from loading the RSS feed into the database.
  */
-if (!function_exists('themeisle_dashboard_widget')) {
+if ( ! function_exists( 'themeisle_dashboard_widget' ) ) {
   /**
    * @return null
    */
