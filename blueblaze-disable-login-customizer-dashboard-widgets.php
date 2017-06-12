@@ -11,7 +11,7 @@
  * Plugin Name:       Blue Blaze Disable Login Customizer Widgets
  * Plugin URI:        https://github.com/blueblazeassociates/blueblaze-disable-login-customizer-dashboard-widgets
  * Description:       Disables dashboard widgets from the Login Customizer plugin.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Blue Blaze Associates
  * Author URI:        http://www.blueblazeassociates.com
  * License:           GPL v2 or later

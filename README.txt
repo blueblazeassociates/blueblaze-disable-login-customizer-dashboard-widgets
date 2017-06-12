@@ -19,5 +19,11 @@ can get in the way.
 
 == Changelog ==
 
+= 1.0.2 =
+* Tweaks to several developer support files.
+
+= 1.0.1 =
+* Tweaks to composer.json.
+
 = 1.0.0 =
 * Initial version.
